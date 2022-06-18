@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { FaBars, FaTimes, FaGithub, FaLinkedin, FaGit } from "react-icons/fa";
+import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <h2>Nitish</h2>
+        <h1 className="text-3xl font-bold tracking-widest font-[montserrat]">Nitish</h1>
       </div>
       <ul className="hidden md:flex">
         <li className="font-medium tracking-wider hover:text-pink-600 duration-150">
@@ -52,22 +52,22 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center ease-in duration-500"
         }
       >
-        <li className="py-6 text-4xl">
+        <li className="py-6 tracking-wide font-mono text-3xl">
           <Link onClick={handleClick} to="home" smooth={true} duration={500}>
             Home
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 tracking-wide font-mono text-3xl">
           <Link onClick={handleClick} to="about" smooth={true} duration={500}>
             About
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 tracking-wide font-mono text-3xl">
           <Link onClick={handleClick} to="skills" smooth={true} duration={500}>
             Skills
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 tracking-wide font-mono text-3xl">
           <Link
             onClick={handleClick}
             to="projects"
@@ -77,7 +77,7 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li className="py-6 text-4xl">
+        <li className="py-6 tracking-wide font-mono text-3xl">
           <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
             Contact
           </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://www.linkedin.com/in/nitish-chaudhary-a618911a3/"
             >
               LinkedIn <FaLinkedin size={30} />
             </a>
@@ -96,7 +96,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://github.com/nitishchaudhary"
+              target="_blank"
+              rel="noreferrer"
             >
               Github <FaGithub size={30} />
             </a>
@@ -104,7 +106,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="mailto:006nschaudhary006@gmail.com"
+              target="_blank"
+              rel="noreferrer"
             >
               Email <HiOutlineMail size={30} />
             </a>
@@ -112,7 +116,9 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-700">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="/"
+              href="https://drive.google.com/file/d/1hA8emGgdXovsC5sbajGnEygMLs94MkSD/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

@@ -26,3 +26,16 @@
     hsla(242, 74%, 61%, 0.8)
   )!important;
 }
+
+.fade-in-section {
+  opacity:0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity 0.6s ease-in-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity:1;
+  transform:none;
+  visibility:visible;
+}
