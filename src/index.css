@@ -13,9 +13,10 @@
 }
 .content-div{
   background-repeat:no-repeat;
-  background-size: cover;
+  background-size:cover;
   background-position: center;
-  height: 250px;
+  height: 230px;
+  
 }
 .content-div:hover{
   transition: 5s ease-in-out;
