@@ -34,6 +34,7 @@ const About = () => {
                 href="https://drive.google.com/file/d/1hA8emGgdXovsC5sbajGnEygMLs94MkSD/view?usp=sharing"
                 className="text-pink-600 hover:cursor-pointer hover:scale-110 font-medium tracking-wide"
                 target="_blank"
+                rel="noreferrer"
               >
                 RESUME
               </a>
