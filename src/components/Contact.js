@@ -1,11 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import Alert from "react-bootstrap/Alert";
 
 const Contact = () => {
   const [inputs, setInputs] = useState({});
   const [submitting, setSubmitting] = useState(false);
-  const [showAlert, setAlert] = useState(false);
 
   const handleChange = (event) => {
     const name = event.target.name;
@@ -23,8 +21,7 @@ const Contact = () => {
       body: JSON.stringify(inputs),
     });
     setSubmitting(false);
-    setAlert(true);
-    if (response.status != 200) {
+    if (response.status !== 200) {
       alert("submission failed");
       throw new Error("Submission failed");
     }
@@ -34,7 +31,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 md:mt-[250px]"
+      className="w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 md:mt-[350px]"
     >
       <form
         onSubmit={submitHandler}

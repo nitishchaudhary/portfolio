@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
-        <h1 className="text-3xl font-bold tracking-widest font-[montserrat]">Nitish</h1>
+        <h1 className="text-3xl font-meduim tracking-wider font-[montserrat]">Nitish</h1>
       </div>
       <ul className="hidden md:flex">
         <li className="font-medium tracking-wider hover:text-pink-600 duration-150">
