@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-scroll";
-import { HiArrowNarrowRight } from "react-icons/hi";
 
 const About = () => {
   return (
