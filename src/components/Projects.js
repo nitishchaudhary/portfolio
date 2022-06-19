@@ -1,5 +1,6 @@
 import React from "react";
 import WorkImg from "../assets/codescape.png";
+import ConnectU from "../assets/connectU.PNG"
 
 const Projects = () => {
 
@@ -39,7 +40,7 @@ const Projects = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${ConnectU})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100 duration-200">
