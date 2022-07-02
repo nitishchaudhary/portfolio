@@ -31,7 +31,7 @@ const About = () => {
               deployed some of them.I've also worked on <b>Docker</b> to deploy
               one of my application. section of this page. You can checkout my{" "}
               <a
-                href="https://drive.google.com/file/d/1hA8emGgdXovsC5sbajGnEygMLs94MkSD/view?usp=sharing"
+                href="https://drive.google.com/file/d/1VSGzaNVCcTnFXOfTXA7eqT0EJvS4T4RW/view?usp=sharing"
                 className="text-pink-600 hover:cursor-pointer hover:scale-110 font-medium tracking-wide"
                 target="_blank"
                 rel="noreferrer"
